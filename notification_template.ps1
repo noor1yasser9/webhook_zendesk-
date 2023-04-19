@@ -1,4 +1,4 @@
-$baseUrl = "https://your-subdomain.zendesk.com/api/v2"
+$baseUrl = "https://your-subdomain.zendesk.com/api/v2/tickets.json"
 $username = "your-email@example.com"
 $password = "your-password"
 $encodedCredentials = [Convert]::ToBase64String([Text.Encoding]::ASCII.GetBytes($username + ":" + $password))
